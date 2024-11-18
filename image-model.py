@@ -58,4 +58,4 @@ if st.button("Gen Image"):
         image = Image.open(BytesIO(img_bytes))
         st.image(image, caption=f"Image {idx + 1}", use_column_width=True)
 else:
-    st.wirte("May be an Error")
+    st.write("May be an Error")
